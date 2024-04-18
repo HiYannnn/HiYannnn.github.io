@@ -60,6 +60,11 @@ const HeroSection = () => {
                 <img src="/images/data_analyst_associate_badge.svg" alt="Data Analyst Associate Badge" style={{ width: '120px', height: '120px' }}/>
               </a>
             </div>
+            <div style={{ marginTop: '40px' }}>
+              <a href="https://www.datacamp.com/certificate/SQA0010905237449" target="_blank">
+                <img src="/images/sql_associate_badge.svg" alt="Associate SQL Badge" style={{ width: '120px', height: '120px' }}/>
+              </a>
+            </div>
           </div>
         </motion.div>
         <motion.div
