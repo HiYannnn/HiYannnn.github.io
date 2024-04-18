@@ -55,15 +55,17 @@ const HeroSection = () => {
               </span>
             </Link>
             {/* Certificate container with icon */}
-            <div style={{ marginTop: '40px' }}>
-              <a href="https://www.datacamp.com/certificate/DAA0016310169827" target="_blank">
-                <img src="/images/data_analyst_associate_badge.svg" alt="Data Analyst Associate Badge" style={{ width: '120px', height: '120px' }}/>
-              </a>
-            </div>
-            <div style={{ marginTop: '40px' }}>
-              <a href="https://www.datacamp.com/certificate/SQA0010905237449" target="_blank">
-                <img src="/images/sql_associate_badge.svg" alt="Associate SQL Badge" style={{ width: '120px', height: '120px' }}/>
-              </a>
+            <div style={{ display: 'flex', marginTop: '40px' }}>
+              <div style={{ marginRight: '20px' }}>
+                <a href="https://www.datacamp.com/certificate/DAA0016310169827" target="_blank">
+                  <img src="/images/data_analyst_associate_badge.svg" alt="Data Analyst Associate Badge" style={{ width: '120px', height: '120px' }}/>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.datacamp.com/certificate/SQA0010905237449" target="_blank">
+                  <img src="/images/sql_associate_badge.svg" alt="Associate SQL Badge" style={{ width: '120px', height: '120px' }}/>
+                </a>
+              </div>
             </div>
           </div>
         </motion.div>
