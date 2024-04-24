@@ -8,16 +8,18 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "Webdesign project using React.js, Tailwind CSS, and Framer Motion.",
     image: "./images/projects/portfolio.png",
     tag: ["All", "Web"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
   {
     id: 2,
-    title: "Stockholm city Housing Prices",
+    title: "Stockholm City Housing Prices",
     description: "Project 2 description",
     image: "./images/projects/housing.png",
     tag: ["All", "Python"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const projectsData = [
     description: "Project 3 description",
     image: "./images/projects/WEATHER.jpg",
     tag: ["All", "SQL"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ const projectsData = [
     description: "Project 4 description",
     image: "./images/projects/spotify-logo.jpg",
     tag: ["All", "Python"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
   {
     id: 5,
@@ -39,6 +43,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "./images/projects/wines.jpg",
     tag: ["All", "Python"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const projectsData = [
     description: "Project 6 description",
     image: "./images/projects/tableau.jpg",
     tag: ["All", "Tableau"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
   {
     id: 7,
@@ -53,6 +59,7 @@ const projectsData = [
     description: "Project 7 description",
     image: "./images/projects/nobel-prize.jpeg",
     tag: ["All", "Python"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
   {
     id: 8,
@@ -60,6 +67,7 @@ const projectsData = [
     description: "Project 8 description",
     image: "./images/projects/netflix.png",
     tag: ["All", "Python"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
   {
     id: 9,
@@ -67,6 +75,7 @@ const projectsData = [
     description: "Project 9 description",
     image: "./images/projects/imdb.jpg",
     tag: ["All", "Python"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
   {
     id: 10,
@@ -74,6 +83,7 @@ const projectsData = [
     description: "Project 10 description",
     image: "./images/projects/flight.jpg",
     tag: ["All", "Python"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
   {
     id: 11,
@@ -81,6 +91,7 @@ const projectsData = [
     description: "Project 11 description",
     image: "./images/projects/Cover-Lego.jpg",
     tag: ["All", "Python"],
+    gitUrl: "https://github.com/HiYannnn/HiYannnn.github.io",
   },
 ];
 const ProjectsSection = () => {
@@ -148,7 +159,7 @@ const ProjectsSection = () => {
                 description={project.description}
                 imgUrl={project.image}
                 gitUrl={project.gitUrl}
-                previewUrl={project.previewUrl}
+                //previewUrl={project.previewUrl}
               />
             </motion.li>
         ))}

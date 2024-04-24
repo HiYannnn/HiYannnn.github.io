@@ -14,6 +14,7 @@ const TAB_DATA = [
         <li>Python</li>
         <li>Tableau</li>
         <li>Power BI</li>
+        <li>Google Analytics, Mixpanel, LuckyOrange, Hotjar</li>
       </ul>
     ),
   },
@@ -34,6 +35,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Data Analyst Associate,DataCamp</li>
         <li>SQL Associate,DataCamp</li>
+        <li>Data Engineer Associate,DataCamp</li>
         <li>Data Literacy Certificate,DataCamp</li>
         <li>AI Fundamentals Certificate,DataCamp</li>
       </ul>
