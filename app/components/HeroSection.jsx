@@ -65,17 +65,17 @@ const HeroSection = () => {
                   <img src="/images/data_analyst_associate_badge.svg" alt="Data Analyst Associate Badge" style={{ width: '120px', height: '120px' }}/>
                 </a>
               </div>
-              <div>
+              <div style={{ marginRight: '20px' }}>
                 <a href="https://www.datacamp.com/certificate/SQA0010905237449" target="_blank">
                   <img src="/images/sql_associate_badge.svg" alt="Associate SQL Badge" style={{ width: '120px', height: '120px' }}/>
                 </a>
               </div>
-              <div>
+              <div style={{ marginRight: '20px' }}>
                 <a href="https://www.datacamp.com/certificate/DEA0012470083529" target="_blank">
                   <img src="/images/data_engineer_associate_badge.svg" alt="Data Engineer Associate Badge" style={{ width: '120px', height: '120px' }}/>
                 </a>
               </div>
-              <div>
+              <div style={{ marginRight: '20px' }}>
                 <a href="https://www.datacamp.com/certificate/DSA0014809456740" target="_blank">
                   <img src="/images/data_scientist_associate_banner.svg" alt="Data Scientist Associate Badge" style={{ width: '120px', height: '120px' }}/>
                 </a>

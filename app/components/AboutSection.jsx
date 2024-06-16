@@ -36,6 +36,7 @@ const TAB_DATA = [
         <li>Data Analyst Associate,DataCamp</li>
         <li>SQL Associate,DataCamp</li>
         <li>Data Engineer Associate,DataCamp</li>
+        <li>Data Scientist Associate,DataCamp</li>
         <li>Data Literacy Certificate,DataCamp</li>
         <li>AI Fundamentals Certificate,DataCamp</li>
       </ul>
@@ -62,7 +63,7 @@ const AboutSection = () => {
           <p className="text-white texxt-base md:text-lg">
             I am a dedicated Data Analyst deeply engaged in the exploration of emerging technologies. 
             I have competence in uncovering and applying data insights to make impactful decisions. I am a quick 
-            learner and  I actively seek opportunities to expand my knowledge and technical skill set. My approach
+            learner and I actively seek opportunities to expand my knowledge and technical skill set. My approach
             is structured, and I am accustomed to managing multiple projects and teams. I can work both independently
             and as a collaborative team member. My focus on understanding user requirements ensures that my data 
             analysis is consistently aligned with real-world situation. I am excited to work with others to develop
