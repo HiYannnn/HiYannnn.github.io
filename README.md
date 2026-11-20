@@ -1,38 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Haiyan Qin · Portfolio
 
-## Getting Started
+I’m a data analyst based in Stockholm with five years of experience across fintech analytics and e-commerce product management. My fintech work has included transaction data analysis, data quality, classification, and AI model evaluation.
 
-First, run the development server:
+[Visit my portfolio](https://hiyannnn.github.io/)
+
+## Featured projects
+
+| Project | What it does | Try it |
+| --- | --- | --- |
+| **Jobee Ops** | A job application tracker. I built a workflow that fills in the company and job title from a posting, lets me attach the CV I submitted, and saves the application as **Applied**. The public demo uses fictional data. | [Try the demo](https://hiyannnn.github.io/jobee-ops) |
+| **Träna Matte** | A space-themed maths practice game with short challenges, progress tracking, and lifetime points. | [Play the game](https://trana-matte.vercel.app) |
+| **Swedish Election Guide** | A guide to Sweden’s 2026 elections in Swedish, English, and Chinese. | [Open the guide](https://minvalguide.vercel.app) |
+| **Farsta Uppkörning** | A driving practice tool for Farsta with maps, locally saved drives, and a shared route library. | [Open the tool](https://farsta-uppkorning.vercel.app) |
+
+The portfolio also includes Python, SQL, and Tableau projects. More projects are on the way.
+
+## Run locally
 
 ```bash
+git clone https://github.com/HiYannnn/HiYannnn.github.io.git
+cd HiYannnn.github.io
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [localhost:3000](http://localhost:3000) to preview the site.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech stack and deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The portfolio uses Next.js, React, Tailwind CSS, and Framer Motion. Run `npm run build` to generate the static site. GitHub Actions deploys it to GitHub Pages when changes reach `main`.
 
-## Learn More
+## Credits
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# HiYannnn.github.io
-# HiYannnn.github.io
+Jobee Ops is built on the open-source [Career Ops](https://github.com/career-ops-hq/career-ops) project. The public portfolio demo showcases my application logging workflow.
