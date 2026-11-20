@@ -6,6 +6,42 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 12,
+    title: "Jobee Ops",
+    description: "A local job application tracker. Paste a posting, attach the CV you submitted, and log the job as Applied.",
+    image: "/images/projects/jobee-logo.svg",
+    tag: ["All", "Web"],
+    demoUrl: "/jobee-ops",
+    demoLabel: "Try the Jobee Ops demo",
+  },
+  {
+    id: 13,
+    title: "Träna Matte",
+    description: "Space-themed maths practice with short challenges, progress tracking, and lifetime points.",
+    tag: ["All", "Vibe Coding"],
+    gitUrl: "https://github.com/HiYannnn/Vibe-Coding/tree/main/trana-matte",
+    demoUrl: "https://trana-matte.vercel.app",
+    demoLabel: "Try the maths game",
+  },
+  {
+    id: 14,
+    title: "Swedish Election Guide",
+    description: "A guide to Sweden’s 2026 elections in Swedish, English, and Chinese.",
+    tag: ["All", "Vibe Coding"],
+    gitUrl: "https://github.com/HiYannnn/Vibe-Coding/tree/main/sweden-election-guide",
+    demoUrl: "https://minvalguide.vercel.app",
+    demoLabel: "Open the guide",
+  },
+  {
+    id: 15,
+    title: "Farsta Uppkörning",
+    description: "Plan driving practice in Farsta with maps, locally saved drives, and a shared route library.",
+    tag: ["All", "Vibe Coding"],
+    gitUrl: "https://github.com/HiYannnn/Vibe-Coding/tree/main/farsta-uppkorning",
+    demoUrl: "https://farsta-uppkorning.vercel.app",
+    demoLabel: "Open the driving tool",
+  },
+  {
     id: 1,
     title: "React Portfolio Website",
     description: "Webdesign project using React.js, Tailwind CSS, and Framer Motion.",
@@ -114,14 +150,22 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects" className="mx-8 mt-8 md:mx-16 lg:mx-32 py-4">
-      <h2 className="text-center text-4xl font-bold text-white mt-20 mb-8 md:mb-8">
-        My Recent Projects
+      <h2 className="mt-20 mb-3 text-center text-4xl font-bold text-white">
+        Projects
       </h2>
+      <p className="mb-4 text-center text-sm text-[#ADB7BE] md:text-base md:whitespace-nowrap">
+        A selection of my data projects and AI-assisted builds, with more on the way.
+      </p>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
           <ProjectTag
             name="All"
             onClick={handleTagChange}
             isSelected={tag === "All"}
+          />
+          <ProjectTag
+            name="Vibe Coding"
+            onClick={handleTagChange}
+            isSelected={tag === "Vibe Coding"}
           />
           <ProjectTag
             name="Web"
@@ -147,7 +191,7 @@ const ProjectsSection = () => {
         <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
           {filteredProjects.map((project, index) => (
             <motion.li
-              key={index}
+              key={project.id}
               variants={cardVariants}
               initial="initial"
               animate={isInView ? "animate" : "initial"}
@@ -159,7 +203,8 @@ const ProjectsSection = () => {
                 description={project.description}
                 imgUrl={project.image}
                 gitUrl={project.gitUrl}
-                //previewUrl={project.previewUrl}
+                demoUrl={project.demoUrl}
+                demoLabel={project.demoLabel}
               />
             </motion.li>
         ))}

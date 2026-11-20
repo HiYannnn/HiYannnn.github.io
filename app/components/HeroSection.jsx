@@ -13,7 +13,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-7 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-6 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
@@ -24,15 +24,19 @@ const HeroSection = () => {
               sequence={[
                 "Data Analyst",
                 1000,
+                "BusinessAnalyst",
+                1000,
+                "ProductAnalyst",
+                1000,
                 "BI Developer",
                 1000,
-                "Data Engineer",
+                "OperationsAnalyst",
                 1000,
                 "BI Analyst",
                 1000,
                 "ProductManager",
                 1000,
-                "Accountant",
+                "Data Engineer",
                 1000,
               ]}
               wrapper="span"
@@ -41,8 +45,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-            I am currently a Data Analyst student at Hyper Island Stockholm.
-          </p>
+            I bring five years of experience across fintech analytics and e-commerce product management. In fintech, I worked on data quality, classification, and AI model evaluation.   </p>
           <div>
             <Link
               href="/#contact"
@@ -87,17 +90,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className="col-span-5 place-self-center mt-4 lg:mt-0"
         >
-          <div className="bg-[#181818] lg:w-[300px] lg:h-[300px] w-[250px] h-[250px] rounded-full relative">
-            <Image
-              src="/images/jag.png"
-              alt="jag image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={500}
-              height={500}
-            />
-          </div>
+          <Image src="/images/me.png" alt="Portrait of Haiyan"width={1312} height={1199} className="h-auto w-[340px] max-w-full lg:w-[480px]" />
         </motion.div>
       </div>
     </section>
